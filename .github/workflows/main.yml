@@ -49,5 +49,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/nodejs-demo-app:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/nodejs-demo-app:hero
           platforms: linux/amd64
